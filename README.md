@@ -29,6 +29,25 @@ Twitter is a popular place for people to vent their frustrations or update their
 
 This type of problem is well-studied in natural language processing and machine learning, and can be thought of as a classification task: given the content of a document (in our case, a tweet), classify its sentiment as either positive or negative. In the notebook [Sentiment Analysis Of Caltrain Tweets](Sentiment\ Analysis\ of\ Caltrain\ Tweets.ipynb), we walk through an example of this procedure using `scikit-learn` in Python.
 
+## Trainspotting
+
+[trainspotting-demo.ipynb](https://github.com/silicon-valley-data-science/datapalooza-2015/blob/master/trainspotting-demo.ipynb)
+
+This demo will walk you through the creation of an algorithm that uses image processing techniques and heuristics unique to our problem of detecting when a train passes by our office and in which direction it traveling. 
+The following steps outline the content of the notebook:
+
+- Load video
+- Convert to grayscale
+- Smooth the frames
+- Compute running average
+- Detect changes
+- Adjust the difference threshold
+- Compare right/left sides of video
+- Detect train 
+- Detect direction of train
+
+**Technical note**: The trainspotting-demo depends on [motion_detector.py](https://github.com/silicon-valley-data-science/datapalooza-2015/blob/master/motion_detector.py) and the video file 'test.avi'.
+
 ## Detecting Catastrophic Delays from Twitter
 
 [caltrain_tweets.ipynb](https://github.com/silicon-valley-data-science/datapalooza-2015/blob/master/caltrain_tweets.ipynb)
