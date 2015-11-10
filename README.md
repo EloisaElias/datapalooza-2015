@@ -20,7 +20,7 @@ The current Trains application provides an intuitive way for Caltrain riders to 
 - Web Service refactor
 - Integration testing
 
-#Sentiment Analysis of Caltrian Tweets
+#Sentiment Analysis of Caltrain Tweets
 Twitter is a popular place for people to vent their frustrations or update their fellow passengers on the current state of public transportation, and as such it is a  valuable source of real-time data on Caltrain service. As a first step to using Twitter activity as a data source for train prediction, we start with a simple question: How do Twitter users currently feel about Caltrain?
 
-This type of problem is well-studied in natural language processing and machine learning, and can be thought of as a classification task: given the content of a document (in our case, a tweet), classify its sentiment as either positive or negative. In the notebook [Sentiment Analysis Of Caltrain Tweets](Sentiment\ Analysis\ Of\ Caltrain\ Tweets.ipynb), we walk through an example of this procedure using `scikit-learn` in Python.
+This type of problem is well-studied in natural language processing and machine learning, and can be thought of as a classification task: given the content of a document (in our case, a tweet), classify its sentiment as either positive or negative. In the notebook [Sentiment Analysis Of Caltrain Tweets](Sentiment\ Analysis\ of\ Caltrain\ Tweets.ipynb), we walk through an example of this procedure using `scikit-learn` in Python.
