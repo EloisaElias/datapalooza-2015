@@ -85,3 +85,8 @@ For the initial stages, we manually inspected Caltrain's twitter feed.
 Tweets are loaded from the data file [caltrain_tweets.json](https://github.com/silicon-valley-data-science/datapalooza-2015/blob/master/caltrain_tweets.json). 
 During a 10-day period in October, we identified four major incidents, 
 three of which resulted in service interruptions and major delays.
+
+### Silicon Valley Data Science
+
+[Silicon Valley Data Science](http://www.svds.com/) is a data science consulting company specializing in agile and business-focused solutions. If you're interested in joining our team, [visit our careers page!](http://www.svds.com/careers/)
+
