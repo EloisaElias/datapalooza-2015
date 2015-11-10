@@ -46,7 +46,7 @@ The following steps outline the content of the notebook:
 - Detect train 
 - Detect direction of train
 
-**Technical note**: The trainspotting-demo depends on [motion_detector.py](https://github.com/silicon-valley-data-science/datapalooza-2015/blob/master/motion_detector.py) and the video file 'test.avi'.
+**Technical note**: The trainspotting-demo depends on [motion_detector.py](https://github.com/silicon-valley-data-science/datapalooza-2015/blob/master/motion_detector.py) and the video file 'test.avi'. Also required is the OpenCV library, which we recommend obtaining with `conda install opencv` (after which you *may* need to run `conda update numpy`).
 
 ## Detecting Catastrophic Delays from Twitter
 
